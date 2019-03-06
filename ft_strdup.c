@@ -6,13 +6,13 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/31 22:58:22 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/03 20:33:34 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/05 16:02:34 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(char *src)
+char	*ft_strdup(const char *src)
 {
 	int		i;
 	int		len;
