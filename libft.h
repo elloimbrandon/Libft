@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/06 13:25:30 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/06 13:39:57 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ typedef	struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-int				ft_isspace(int c);
 int				ft_atoi(const char *str);
 void			ft_bzero(void *s, size_t n);
 int				ft_isalnum(int c);
