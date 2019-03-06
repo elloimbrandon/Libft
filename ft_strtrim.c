@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/27 20:11:16 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/03 20:20:50 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/06 13:43:33 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strtrim(char const *s)
 	if (!s)
 		return (NULL);
 	i = 0;
-	while (ft_isspace(s[i]))
+	while (s[i] == '\n' || s[i] == '\r' || s[i] == ' ' || s[i] == '\v')
 		i++;
 	beg = i;
 	if (s[beg] == '\0')
@@ -34,7 +34,7 @@ char	*ft_strtrim(char const *s)
 	while (s[i])
 		i++;
 	i--;
-	while (ft_isspace(s[i]))
+	while (s[i] == '\n' || s[i] == '\r' || s[i] == ' ' || s[i] == '\v')
 		i--;
 	if (!(dst = (ft_strsub(s, beg, i - beg + 1))))
 		return (NULL);
