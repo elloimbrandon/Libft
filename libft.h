@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/05 19:08:19 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/06 13:25:30 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
-# define DESTROY(x) (free(x))
 
 typedef	struct	s_list
 {
