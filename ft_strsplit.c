@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 12:23:28 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/05 17:43:07 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/06 13:58:33 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,6 @@ char			**ft_strsplit(char const *s, char c)
 		return (NULL);
 	while (i < count)
 		sentence[i++] = ft_place_words(s, c, &k);
-	sentence[i] = 0;
+	sentence[i] = '\0';
 	return (sentence);
 }
