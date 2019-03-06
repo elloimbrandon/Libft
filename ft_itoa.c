@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/14 16:36:29 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/04 14:38:28 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/05 17:27:33 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ char			*ft_itoa(int n)
 	str = (char*)malloc(sizeof(char) * len);
 	if (!str)
 		return (NULL);
+	str[len] = '\0';
 	str[--len] = sign % 10 + '0';
 	while (sign /= 10)
 		str[--len] = sign % 10 + '0';
