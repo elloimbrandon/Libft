@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/29 11:54:21 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/04 12:43:48 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/11 17:29:46 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int		ft_atoi(const char *str)
 {
 	int		i;
-	size_t	nbr;
+	int		nbr;
 	int		neg;
 
 	i = 0;
