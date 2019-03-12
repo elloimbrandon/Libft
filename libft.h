@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/06 14:14:40 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/11 19:23:52 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stdlib.h>
 # include <strings.h>
 # include <unistd.h>
+# define SPACE (s[i] == ' ') || (s[i] == '\n') || (s[i] == '\t')
 
 typedef	struct	s_list
 {
