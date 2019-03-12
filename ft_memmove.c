@@ -3,35 +3,35 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: maljean <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/14 15:10:34 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/02/28 20:11:45 by brfeltz          ###   ########.fr       */
+/*   Created: 2018/02/21 17:13:30 by maljean           #+#    #+#             */
+/*   Updated: 2018/02/28 20:25:46 by maljean          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t len)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t	i;
+	size_t		i;
 
-	if (dest == src)
-		return (dest);
-	if (dest > src)
+	if (dst == src)
+		return (dst);
+	if (dst > src)
 	{
 		i = len;
 		while (i-- > 0)
-			((char *)dest)[i] = ((char *)src)[i];
+			((char *)dst)[i] = ((char *)src)[i];
 	}
 	else
 	{
 		i = 0;
 		while (i < len)
 		{
-			((char *)dest)[i] = ((char *)src)[i];
+			((char *)dst)[i] = ((char *)src)[i];
 			i++;
 		}
 	}
-	return (dest);
+	return (dst);
 }

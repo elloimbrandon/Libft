@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim2.c                                      :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: maljean <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/02/27 20:11:16 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/03 20:20:50 by brfeltz          ###   ########.fr       */
+/*   Created: 2018/02/22 21:14:07 by maljean           #+#    #+#             */
+/*   Updated: 2018/03/01 14:57:37 by maljean          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,29 +14,28 @@
 
 char	*ft_strtrim(char const *s)
 {
-	size_t	i;
-	char	*dst;
-	int		beg;
+	char			*dest;
+	int				start;
+	unsigned int	i;
 
-	beg = 0;
 	if (!s)
 		return (NULL);
 	i = 0;
-	while (ft_isspace(s[i]))
+	while (SPACE)
 		i++;
-	beg = i;
-	if (s[beg] == '\0')
+	start = i;
+	if (s[start] == '\0')
 	{
-		dst = ft_strnew(0);
-		dst[0] = '\0';
-		return (dst);
+		dest = ft_strnew(0);
+		dest[0] = '\0';
+		return (dest);
 	}
 	while (s[i])
 		i++;
 	i--;
-	while (ft_isspace(s[i]))
+	while (SPACE)
 		i--;
-	if (!(dst = (ft_strsub(s, beg, i - beg + 1))))
+	if (!(dest = (ft_strsub(s, start, i - start + 1))))
 		return (NULL);
-	return (dst);
+	return (dest);
 }
