@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/16 13:50:28 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/16 13:53:52 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void			ft_strdel(char **as);
 void			ft_strclr(char *s);
 void			ft_bzero(void *s, size_t n);
 void			ft_swap(int *a, int *b);
+void			ft_printbits(unsigned char octet);
 void			ft_memdel(void **ap);
 void			*ft_memalloc(size_t size);
 void			*ft_memmove(void *dest, const void *src, size_t len);
