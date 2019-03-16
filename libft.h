@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/16 13:53:52 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/16 14:05:57 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ int				ft_isdigit(int c);
 int				ft_isprint(int c);
 int				ft_atoi(const char *str);
 int				ft_do_op(char *nbr1, char op, char *nbr2);
+int				ft_max(int *tab, unsigned int length);
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_strequ(char const *s1, char const *s2);
