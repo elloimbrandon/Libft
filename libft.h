@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/03/15 22:44:01 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/03/16 13:50:28 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int				ft_isascii(int c);
 int				ft_isdigit(int c);
 int				ft_isprint(int c);
 int				ft_atoi(const char *str);
+int				ft_do_op(char *nbr1, char op, char *nbr2);
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_strequ(char const *s1, char const *s2);
@@ -43,6 +44,7 @@ size_t			ft_strlcat(char *s1, const char *s2, size_t size);
 void			ft_strdel(char **as);
 void			ft_strclr(char *s);
 void			ft_bzero(void *s, size_t n);
+void			ft_swap(int *a, int *b);
 void			ft_memdel(void **ap);
 void			*ft_memalloc(size_t size);
 void			*ft_memmove(void *dest, const void *src, size_t len);
