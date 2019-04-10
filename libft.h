@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/04/08 16:14:27 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/04/09 18:16:56 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int				ft_isascii(int c);
 int				ft_isdigit(int c);
 int				ft_isprint(int c);
 int				get_next_line(int fd, char **line);
+int				ft_sqrt(int n, int nb);
 int				ft_atoi(const char *str);
 int				ft_do_op(char *nbr1, char op, char *nbr2);
 int				ft_max(int *tab, unsigned int length);
