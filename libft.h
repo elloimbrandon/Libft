@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/04/09 18:16:56 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/08/08 16:07:55 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef	struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-int             ft_ismod(int c);
+int				ft_ismod(int c);
 int				ft_isspace(int c);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
@@ -91,7 +91,7 @@ char			*ft_strdup(const char *src);
 char			*ft_strtrim(char const *s);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			**ft_strsplit(char const *s, char c);
-char            *ft_strrev(char *str);
+char			*ft_strrev(char *str);
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_list			*ft_lstnew(void const *content, size_t content_size);
 
