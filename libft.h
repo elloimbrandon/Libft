@@ -6,7 +6,7 @@
 /*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 18:17:18 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/08/08 16:07:55 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/08/30 05:23:54 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stdlib.h>
 # include <strings.h>
 # include <unistd.h>
+# include "./ft_printf/ft_printf.h"
 
 # define BUFF_SIZE 32
 
@@ -25,7 +26,6 @@ typedef	struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-int				ft_ismod(int c);
 int				ft_isspace(int c);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
@@ -45,6 +45,7 @@ int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_strequ(char const *s1, char const *s2);
 int				ft_strnequ(char const *s1, char const *s2, size_t n);
 int				ft_memcmp(const void *s1, const void *s2, size_t n);
+int				ft_printf(const char *format, ...);
 size_t			ft_strlen(const char *str);
 size_t			ft_strlcat(char *s1, const char *s2, size_t size);
 void			ft_strdel(char **as);
