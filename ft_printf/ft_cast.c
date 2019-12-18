@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../HEADERS/ft_printf.h"
 
 long long			ft_cast(va_list list, t_ops *ops)
 {

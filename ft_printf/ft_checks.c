@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../HEADERS/ft_printf.h"
 
 int		conversion_check(char *str, char c)
 {
