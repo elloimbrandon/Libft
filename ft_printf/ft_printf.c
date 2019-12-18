@@ -6,11 +6,11 @@
 /*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 12:06:56 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/12/18 15:07:24 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:29:29 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 /*
 ** %[parameter][flags][width][.precision][length] type

@@ -6,11 +6,11 @@
 /*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 18:32:40 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/12/18 15:12:34 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:29:24 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 void	ft_check_mods(char *format, t_ops *ops, int *i)
 {

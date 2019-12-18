@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_checks.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/19 21:46:28 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/08/19 22:25:24 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:29:14 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 int		conversion_check(char *str, char c)
 {

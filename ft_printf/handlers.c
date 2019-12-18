@@ -6,11 +6,11 @@
 /*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 23:35:32 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/12/18 14:02:12 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:29:39 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 int		handle_char(va_list list, t_ops *ops)
 {

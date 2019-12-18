@@ -6,11 +6,11 @@
 /*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 17:28:09 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/12/18 15:14:29 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:29:19 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 static char		*output_swap(char *output)
 {

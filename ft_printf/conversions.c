@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   conversions.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brfeltz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: brfeltz <brfeltz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 17:16:53 by brfeltz           #+#    #+#             */
-/*   Updated: 2019/08/07 23:36:41 by brfeltz          ###   ########.fr       */
+/*   Updated: 2019/12/18 15:28:57 by brfeltz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../HEADERS/ft_printf.h"
+#include "ft_printf.h"
 
 char		*ft_tobinary(unsigned long long nbr)
 {
