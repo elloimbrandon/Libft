@@ -15,10 +15,10 @@ This project requires us to re-write these standard ```libc``` functions and oth
 Per the project, all of our functions must begin with ```ft_``` for, _Forty-Two_.
 
 **Project Document:**
-[Libft.pdf](https://github.com/elloimbrandon/ft_libft/docs/libft.en%20.pdf)
+[Libft.pdf](https://github.com/elloimbrandon/ft_libft/blob/master/docs/libft.en.pdf)
 
 All functions were written according to 42's coding standard,
-[the Norm](https://github.com/elloimbrandon/ft_libft/docs/norme.en%20.pdf).
+[the Norm](https://github.com/elloimbrandon/ft_libft/blob/master/docs/norme.en.pdf).
 
 
 ## Installation
